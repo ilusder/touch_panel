@@ -83,7 +83,7 @@ i++;
 }
 	//finish get coordinates
 Lcd_Fill_Screen ( RGB(0,255,0) );
-Lcd_String_8X16 ("Thanks. Wait...\n", 20, 20, RED, GREEN);
+Lcd_String_8X16 ("Thanks. Wait...", 20, 20, RED, GREEN);
 
 //A
 temp1 = ((double) xd[0] * ((double) yt[1] - (double) yt[2])) + ((double) xd[1] * ((double) yt[2] - (double) yt[0])) + ((double) xd[2] * ((double) yt[0] - (double) yt[1]));
